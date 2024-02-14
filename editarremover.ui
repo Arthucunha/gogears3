@@ -13,14 +13,20 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 170, 127);</string>
+  </property>
   <widget class="QLineEdit" name="lineEdit_3">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>260</y>
+     <y>270</y>
      <width>341</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -32,6 +38,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Ano</string>
    </property>
@@ -40,10 +49,13 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>190</y>
+     <y>200</y>
      <width>341</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -54,6 +66,9 @@
      <width>341</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Marca</string>
@@ -68,6 +83,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Modelo</string>
    </property>
@@ -76,30 +94,39 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>400</y>
+     <y>410</y>
      <width>341</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>120</y>
+     <y>130</y>
      <width>341</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_4">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>330</y>
+     <y>340</y>
      <width>341</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
@@ -108,8 +135,11 @@
      <x>30</x>
      <y>380</y>
      <width>341</width>
-     <height>16</height>
+     <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Número de Passageiros</string>
@@ -124,6 +154,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Volume Porta Mala</string>
    </property>
@@ -137,6 +170,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Remover</string>
    </property>
@@ -149,6 +185,9 @@
      <width>101</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Editar Dados</string>
