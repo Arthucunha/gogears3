@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 170, 127);</string>
+  </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
@@ -21,6 +24,9 @@
      <width>80</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Pesquisar</string>
@@ -35,6 +41,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Filtros</string>
    </property>
@@ -48,6 +57,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+   </property>
    <property name="text">
     <string>Voltar</string>
    </property>
@@ -60,6 +72,9 @@
      <width>541</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Digite o que você procura</string>
