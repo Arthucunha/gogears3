@@ -1,6 +1,7 @@
 #include "cadastrar.h"
 #include "ui_cadastrar.h"
 #include "car.h"
+#include <QMessageBox>
 
 cadastrar::cadastrar(QWidget *parent) :
     QWidget(parent),
@@ -37,4 +38,11 @@ void cadastrar::saveCar(){
 
         file.close();
     }
+    QMessageBox::information(this, "Sucesso", "Carro salvo com sucesso!");
+
+ui->lineEdit->clear();
+ui->lineEdit_2->clear();
+ui->lineEdit_3->clear();
+ui->lineEdit_4->clear();
+ui->lineEdit_5->clear();
 }
